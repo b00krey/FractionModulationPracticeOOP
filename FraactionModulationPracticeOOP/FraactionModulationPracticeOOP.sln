@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraactionModulationPracticeOOP", "FraactionModulationPracticeOOP.csproj", "{F91DE030-B73C-44D3-BEB5-DDD39D0626FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F91DE030-B73C-44D3-BEB5-DDD39D0626FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91DE030-B73C-44D3-BEB5-DDD39D0626FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91DE030-B73C-44D3-BEB5-DDD39D0626FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91DE030-B73C-44D3-BEB5-DDD39D0626FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA35AE9C-5A69-4FB6-9D9B-53A97912EADD}
+	EndGlobalSection
+EndGlobal
