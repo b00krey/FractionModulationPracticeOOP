@@ -12,15 +12,32 @@
         /// </summary>
         public int Denominator;
 
+        public Fraction(int numerator) : this(numerator, 1)
+        { }
+
         public Fraction(int numerator, int denominator)
         {
-            Numerator = numerator;
-            Denominator = denominator;
+            int a = numerator;
+            int b = denominator;
+
+            while (b != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            int gcd = Math.Abs(a);
+
+            Numerator = numerator / gcd;
+            Denominator = denominator / gcd;
         }
 
         public void Print()
         {
-            Console.WriteLine($"{Numerator}/{Denominator}");
+            if (Denominator > 1)
+                Console.WriteLine($"{Numerator}/{Denominator}");
+            else
+                Console.WriteLine($"{Numerator}");
         }
 
         public Fraction Sum(Fraction otherFraction)
